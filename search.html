@@ -56,97 +56,93 @@
 
     <div class="container">
 
-      <div class="row row-offcanvas row-offcanvas-left">
+      <div class="row">
 		
-		<div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
-          <div class="list-group">
-            <a href="" class="list-group-item active"><i class="fa fa-question-circle fa-2x fa-fw"></i> <b>What?</b> </a>
-            <a href="" class="list-group-item list-group-item-warning"><i class="fa fa-map-marker fa-2x fa-fw"></i> Where?</a>
-            <a href="" class="list-group-item list-group-item-warning"><i class="fa fa-clock-o fa-2x fa-fw"></i> When?</a>           
-            <a href="" class="list-group-item list-group-item-warning"><i class="fa fa-user fa-2x fa-fw"></i> Who?</a>           
-			</div>
-        </div><!--/span-->
 	  
-        <div class="col-xs-12 col-sm-9">
-          <p class="pull-left visible-xs">
-            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas"><i class="fa fa-caret-right fa-2x"></i></button>
-          </p>
+        <div class="col-xs-12 col-sm-12">
+          
           <div class="">
             <div class="alert alert-success alert-dismissable">
 				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-				<center><b>Let's tag this event so other solvers can see it.  Click any of the tags below to add them to this event.</b></center>
-				<p>Depending upon what content has been entered into the search/submit field, we can suggest a different input options and tags.  
+				<center><i class="fa fa-tags fa-fw fa-lg"></i> <b>Let's tag this event so other Solvers can see it.</b>  You can toggle any of the suggested tags below, or add a tag that you don't see.</center>
 			</div>
           </div>
-		  <div>
-			<p>
-				
-			</p>
-			
-		  </div>
-		  <div class="btn-group" data-toggle="buttons">
-			  <label class="btn btn-primary">
-				<input type="checkbox"> Street
-			  </label>
-			  <label class="btn btn-primary">
-				<input type="checkbox"> Potholes
-			  </label>
-			  <label class="btn btn-primary">
-				<input type="checkbox"> City Budget
-			  </label>
-			  <label class="btn btn-primary">
-				<input type="checkbox"> Road Work
-			  </label>
-			  <label class="btn btn-primary">
-				<input type="checkbox"> Automobile
-			  </label>
-			  <label class="btn btn-primary">
-				<input type="checkbox"> Hole
-			  </label>
-			  <label class="btn btn-primary">
-				<input type="checkbox"> Pot
-			  </label>
-			  <label class="btn btn-primary">
-				<input type="checkbox"> Accidents
-			  </label>
-			  <label class="btn btn-primary">
-				<input type="checkbox"> Option 3
-			  </label>
-			</div>
-			
+		  
 			
 			<!-- Accordion starts here -->
 			<div class="panel-group" id="accordion">
-			  <div class="panel panel-default">
-				<div class="panel-heading list-group">
+			  <div class="panel panel-primary">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="">
+				<div class="panel-heading">
 				  
-					<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="">
+					
 						<h4 class="panel-title">
-					  <i class="fa fa-question-circle fa-2x fa-fw"></i> <b>What?</b> 
+					  <i class="fa fa-eye fa-2x fa-fw"></i> <b>What?</b> 
 						</h4>
-					</a>
+					
 				  
 				</div>
+				</a>
 				<div id="collapseOne" class="panel-collapse collapse in list-group">
 				  <div class="panel-body">
 				  
+				  
+				  
+				  
 					<form class="form-horizontal" role="form">
+						  <div class="form-group">
+							<label for="" class="col-sm-2 control-label">Tags</label>
+							<div class="col-sm-10">
+								<div class="btn-group" data-toggle="buttons">
+								  <label class="btn btn-success">
+									<input type="checkbox">  Yum
+								  </label>
+								  <label class="btn btn-success">
+									<input type="checkbox">  Potholes
+								  </label>
+								  <label class="btn btn-success">
+									<input type="checkbox"> City Budget
+								  </label>
+								  <label class="btn btn-success">
+									<input type="checkbox"> Road Work
+								  </label>
+								  <label class="btn btn-success">
+									<input type="checkbox"> Automobile
+								  </label>
+								  <label class="btn btn-success">
+									<input type="checkbox"> Hole
+								  </label>
+								  <label class="btn btn-success">
+									<input type="checkbox"> Pot
+								  </label>
+								  <label class="btn btn-success">
+									<input type="checkbox"> Accidents
+								  </label>
+								  <label class="btn btn-success">
+									<input type="checkbox"> Accidents
+								  </label>
+								  <label class="btn btn-success">
+										<i class="fa fa-plus fa-fw"></i><i class="fa fa-tag fa-fw"></i>	  
+								  </label>
+								</div>
+							</div>
+						  </div>
 						  <div class="form-group">
 							<label for="" class="col-sm-2 control-label">Title</label>
 							<div class="col-sm-10">
-							  <input type="text" class="form-control" id="" placeholder="(Optional) Title">
+							  <input type="text" class="form-control" id="" placeholder="(Required)">
 							</div>
 						  </div>
 						  <div class="form-group">
 							<label for="" class="col-sm-2 control-label">Description</label>
 							<div class="col-sm-10">
-								<textarea class="form-control" rows="3" placeholder="(Optional) Write a description of the problem.  Once submitted your description can be edited by anyone."></textarea>
+								<textarea class="form-control" rows="3" placeholder="(Optional)"></textarea>
 							</div>
 						  </div>
 						  <div class="form-group">
 							<label for="" class="col-sm-2 control-label">URLs</label>
 							<div class="col-sm-10">
-							  <input type="url" class="form-control" id="" placeholder="(Optional) URLs">
+							  <input type="url" class="form-control" id="" placeholder="(Optional)">
 							</div>
 						  </div>
 						  <div class="form-group">
@@ -160,11 +156,11 @@
 				  </div>
 				</div>
 			  </div>
-			  <div class="panel panel-default">
+			  <div class="panel panel-primary">
 				
 				  
 					<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-					<div class="panel-heading bg-warning">
+					<div class="panel-heading">
 						<h4 class="panel-title">
 					  <i class="fa fa-map-marker fa-2x fa-fw"></i> Where?
 						</h4>
@@ -177,16 +173,16 @@
 				  
 					<form class="form-horizontal" role="form">
 						  <div class="form-group">
-							<label for="" class="col-sm-2 control-label">Where is this?</label>
-							<div class="col-sm-10">
-							  <input type="text" class="form-control" id="" placeholder="(Optional) Title">
+							
+							<div class="col-sm-12">
+							  <input type="text" class="form-control" id="" placeholder="">
 							</div>
 						  </div>
 						
 						  
 						  <div class="form-group">
-							<label for="" class="col-sm-2 control-label"></label>
-							<div class="col-sm-10">
+							<div class="col-sm-12 btn-group">
+							  <button type="button" class="btn btn-default"><i class="fa fa-ban text-danger fa-fw"></i> No Location</button>
 							  <button type="button" class="btn btn-default"><i class="fa fa-location-arrow fa-fw"></i> Use Your Location</button>
 							</div>
 						  </div>
@@ -195,34 +191,21 @@
 				  </div>
 				</div>
 			  </div>
-			  <div class="panel panel-default">
+			  <div class="panel panel-primary">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
 				<div class="panel-heading">
 				  <h4 class="panel-title">
-					<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
 					  <i class="fa fa-clock-o fa-2x fa-fw"></i> When?
-					</a>
 				  </h4>
 				</div>
+				</a>
 				<div id="collapseThree" class="panel-collapse collapse">
 				  <div class="panel-body">
 					Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
 				  </div>
 				</div>
 			  </div>
-			  <div class="panel panel-default">
-				<div class="panel-heading">
-				  <h4 class="panel-title">
-					<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-					  <i class="fa fa-user fa-2x fa-fw"></i> Who?
-					</a>
-				  </h4>
-				</div>
-				<div id="collapseThree" class="panel-collapse collapse">
-				  <div class="panel-body">
-					Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-				  </div>
-				</div>
-			  </div>
+			  
 			</div>
 		  
           
