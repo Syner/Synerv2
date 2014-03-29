@@ -2007,7 +2007,11 @@ select[multiple].input-lg {
           user-select: none;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px;
+  margin-top: -19px;   
+  border-top: 19px solid transparent;
+  border-bottom: 19px solid transparent;
+  border-left: 1em solid;
+  right: -1em;
 }
 .btn:focus,
 .btn:active:focus,
