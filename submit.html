@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Collaborative Problem Solving Made Easy">
+    <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="http://syner.us/favicon.ico">
 
-    <title>Syner - Index</title>
+    <title>Syner - Submit</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -49,57 +49,154 @@
     </div><!-- /.navbar -->
 
     <div class="container">
-		<div class="row">
+      <div class="row">
         <div class="col-xs-12 col-sm-12">
-          <div class="jumbotron">
-            <center><h2 class="">What is a problem you see?</h2></center>
-			
-			<div class="input-group">
-				<input type="text" class="form-control" placeholder="Enter keyword, location, or URL" action="submit.html">
-					<span class="input-group-btn">
-						<a href="submit.html"><button class="btn btn-default" type="button">Go!</button></a>
-					</span>
-			</div><!-- /input-group -->
-            
-          </div>
-          <div class="row">
-            <div class="col-6 col-sm-6 col-lg-4">
-              <h2><i class="fa fa-group fa-fw"></i>Collaboration</h2>
-              <p>Syner connects people together through the common problems that they face.  Using shared editing features we allows groups to cumulatively define and build suggested solutions to problems that we witness. </p>
-            </div><!--/span-->
-			<div class="col-6 col-sm-6 col-lg-4">
-              <h2><i class="fa fa-eye-slash fa-fw"></i>Anonymous Reporting</h2>
-              <p> Report problems that you see in the world without tying them to your social identity, or registering an account.  If you choose to be notified when content you submitted has been modified, we'll send you an email without sharing your personal information with anyone.</p>
-            </div><!--/span-->
-			<div class="col-6 col-sm-6 col-lg-4">
-              <h2><i class="fa fa-bolt fa-fw"></i>Fast & Simple</h2>
-			  <p>We believe simplicity and ease of use are values to uphold over total feature capability.  Reliability and making sure we serve a core purpose is a priority over accepting a multitude of feature implementations.  We design with mobile first in mind and will expand capability after paying close attention to feedback. </p>
-            </div><!--/span-->
-            <div class="col-6 col-sm-6 col-lg-6">
-              <h2><i class="fa fa-stethoscope fa-fw"></i>Transparency</h2>
-			  <p>We believe trust is the most pivotal value to uphold for anyone that users Syner.  We share our business practices and spending habits in praise of transparency so that the community understands our status and can offer incite into improving our own functionality.</p>
-            </div><!--/span-->
-            
-			<div class="col-6 col-sm-6 col-lg-6">
-              <h2><i class="fa fa-puzzle-piece fa-fw"></i>Reputation & Rating</h2>
-				<p>While anonymous content submission is great for getting ideas and reported problems on the table.  We still need community leaders to curate content and they should be recognized for the work that they do.  We employ game mechanics that allows users to unlock functionality in the system to prevent new users from ruining quality/establish content. </p>
-              
-            </div><!--/span-->
-			
-          </div><!--/row-->
+			<!-- Accordion starts here -->
+			<div class="panel-group" id="accordion">
+			  <div class="panel panel-primary">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="">
+				<div class="panel-heading">
+						<h4 class="panel-title">
+					  <i class="fa fa-eye fa-2x fa-fw"></i> <b>What?</b> 
+						</h4>
+				</div>
+				</a>
+				<div id="collapseOne" class="panel-collapse collapse in list-group">
+				  <div class="panel-body">
+					<form class="form-horizontal" role="form">
+						  <div class="form-group">
+							<label for="" class="col-sm-2 control-label">Description</label>
+							<div class="col-sm-10">
+								<textarea class="form-control" rows="3" placeholder="Start to explain the problem.  Doesn't have to be perfect, we can edit and improve after we submit."></textarea>
+							</div>
+						  </div>
+						  <div class="form-group">
+							<label for="" class="col-sm-2 control-label">Attach URL</label>
+							<div class="col-sm-10">
+							  <button><i class="fa fa-plus fa-fw fa-lg"> </i><i class="fa fa-link fa-fw fa-lg"> </i></button>
+							</div>
+						  </div>
+						  <div class="form-group">
+							<label for="" class="col-sm-2 control-label">Upload Picture</label>
+							<div class="col-sm-10">
+								<button><i class="fa fa-upload fa-fw fa-lg"> </i><i class="fa fa-camera fa-fw fa-lg"> </i></button>
+
+							</div>
+						  </div>
+						  <div class="alert alert-info alert-dismissable">
+							<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+							<center><i class="fa fa-tags fa-fw fa-lg"></i> <b></b>  Toggle related tags or add a tag you think is related.  </center>
+						  </div>
+						  <div class="form-group">
+							<label for="" class="col-sm-2 control-label">Related Tags</label>
+							<div class="col-sm-10">
+								<div class="btn-group" data-toggle="buttons">
+								  <label class="btn btn-primary">
+									<input type="checkbox">  Yum
+								  </label>
+								  <label class="btn btn-primary">
+									<input type="checkbox">  Potholes
+								  </label>
+								  <label class="btn btn-primary">
+									<input type="checkbox"> City Budget
+								  </label>
+								  <label class="btn btn-primary">
+									<input type="checkbox"> Road Work
+								  </label>
+								  <label class="btn btn-primary">
+									<input type="checkbox"> Automobile
+								  </label>
+								  <label class="btn btn-primary">
+									<input type="checkbox"> Hole
+								  </label>
+								  <label class="btn btn-primary">
+									<input type="checkbox"> Pot
+								  </label>
+								  <label class="btn btn-primary">
+									<input type="checkbox"> Accidents
+								  </label>
+								  <label class="btn btn-primary">
+									<input type="checkbox"> Accidents
+								  </label>
+								  <label class="btn btn-primary">
+										<i class="fa fa-plus fa-fw"></i><i class="fa fa-tag fa-fw"></i>	  
+								  </label>
+								</div>
+							</div>
+						  </div>
+					</form>
+					
+				  </div>
+				</div>
+			  </div>
+			  <div class="panel panel-primary">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+					  <i class="fa fa-map-marker fa-2x fa-fw"></i> Where?
+						</h4>
+					</div>
+					</a>
+				  
+				
+				<div id="collapseTwo" class="panel-collapse collapse">
+				  <div class="panel-body">
+				  
+					<form class="form-horizontal" role="form">
+						  <div class="form-group">
+							
+							<div class="col-sm-12">
+							  <input type="text" class="form-control" id="" placeholder="Could be a specific location or area. (city, state, country)">
+							</div>
+						  </div>
+						
+						  
+						  <div class="form-group">
+							<div class="col-sm-12 btn-group">
+							  <button type="button" class="btn btn-default"><i class="fa fa-ban text-danger fa-fw"></i> No Location</button>
+							  <button type="button" class="btn btn-default"><i class="fa fa-location-arrow fa-fw"></i> Use Your Location</button>
+							</div>
+						  </div>
+					</form>
+				  
+				  </div>
+				</div>
+			  </div>
+			  <div class="panel panel-primary">
+					<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+					  <i class="fa fa-upload fa-2x fa-fw"></i> Submit
+						</h4>
+					</div>
+					</a>
+				  
+				
+				<div id="collapseThree" class="panel-collapse collapse">
+				  <div class="panel-body">
+				  
+					<p>Prior to submission, each section above turns green when all required fields are filled.  If if not, expand the field that requires more info and alert next to the needed field.</p>
+				  
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  
+          
         </div><!--/span-->
 
+	
         
       </div><!--/row-->
 
-      <hr>
+     <hr>
 
       <footer>
-       <p>
+		<p>
 			<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>   
 			<a href="https://github.com/Syner/Synerv2"><i class="fa fa-github fa-fw fa-lg"></i> Github </a><i class=""> 
 		</p>
-	  </footer>
+      </footer> 
 
     </div><!--/.container-->
 
