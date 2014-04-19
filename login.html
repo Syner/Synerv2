@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="http://syner.us/favicon.ico">
 
-    <title>Syner - Index</title>
+    <title>Syner - Login</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -43,7 +43,6 @@
 			<li><a href="login.html">Login</a></li>
             <li><a href="about.html">About</a></li>
 			
-			
           </ul>
         </div><!-- /.nav-collapse -->
       </div><!-- /.container -->
@@ -52,39 +51,53 @@
     <div class="container">
 		<div class="row">
         <div class="col-xs-12 col-sm-12">
-          <div class="jumbotron">
-            <center><h2 class="">What is a problem you see?</h2></center>
-			
-			<div class="input-group">
-				<input type="text" class="form-control" placeholder="Enter keyword, location, or URL" action="submit.html">
-					<span class="input-group-btn">
-						<a href="submit.html"><button class="btn btn-default" type="button">Go!</button></a>
-					</span>
-			</div><!-- /input-group -->
-            
-          </div>
+          
           <div class="row">
-			<div class="col-6 col-sm-6 col-lg-4">
-              <h2><i class="fa fa-eye-slash fa-fw"></i>Anonymous Reporting</h2>
-              <p> Report problems that you see in the world without tying them to your social identity, or registering an account.  If you choose to be notified when your content has been modified, we'll send you an email without sharing your personal information with anyone.</p>
-            </div><!--/span-->
-            <div class="col-6 col-sm-6 col-lg-4">
-              <h2><i class="fa fa-group fa-fw"></i>Collaboration</h2>
-              <p>Syner connects people together through the common problems that they face.  Using shared editing features we allows groups to cumulatively define problems that they witness or care about.    </p>
-            </div><!--/span-->
-			<div class="col-6 col-sm-6 col-lg-4">
-              <h2><i class="fa fa-bolt fa-fw"></i>Fast & Simple</h2>
-			  <p>We believe simplicity and ease of use are values to uphold over total feature capability.  Reliability and making sure we serve a core purpose is a priority over accepting a multitude of feature implementations.  We design with mobile first in mind and will expand capability after paying close attention to feedback. </p>
-            </div><!--/span-->
-            <div class="col-6 col-sm-6 col-lg-6">
-              <h2><i class="fa fa-stethoscope fa-fw"></i>Transparency</h2>
-			  <p>We believe trust is the most pivotal value to uphold for anyone that users Syner.  We share our business practices and spending habits in praise of transparency so that the community understands our status and can offer incite into improving our own functionality.</p>
-            </div><!--/span-->
-			<div class="col-6 col-sm-6 col-lg-6">
-              <h2><i class="fa fa-puzzle-piece fa-fw"></i>Reputation & Rating</h2>
-				<p>While anonymous content submission is great for getting ideas and reported problems on the table.  We still need community leaders to curate content and they should be recognized for the work that they do.  We employ game mechanics that allows users to unlock functionality in the system to prevent new users from ruining quality/establish content. </p>
+            <div class="col-4 col-sm-3 col-lg-3">
+			</div>
+			<div class="col-4 col-sm-6 col-lg-6">
               
+				<form class="form-horizontal" role="form">
+				  <div class="col-sm-offset-3 col-sm-9">
+					  <h2><i class="fa fa-user fa-fw"></i>Login</h2>
+					</div>
+				  
+				  
+				  <div class="form-group">
+					<label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+					<div class="col-sm-9">
+					  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+					</div>
+				  </div>
+				  <div class="form-group">
+					<label for="inputPassword3" class="col-sm-3 control-label">Password</label>
+					<div class="col-sm-9">
+					  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+					</div>
+				  </div>
+				  <div class="form-group">
+					<div class="col-sm-offset-3 col-sm-9">
+					  <div class="checkbox">
+						<label>
+						  <input type="checkbox"> Remember me
+						</label>
+					  </div>
+					</div>
+				  </div>
+				  <div class="form-group">
+					<div class="col-sm-offset-3 col-sm-2">
+					  <button type="submit" class="btn btn-default btn-lg">Sign In</button>
+					</div>
+					
+					<div class="col-sm-offset-3 col-sm-3">
+					  <a href="register.html"><button type="button" action="register.html" class="btn btn-default btn-lg">Sign Up</button></a>
+					</div>
+				  </div>
+				</form>	
             </div><!--/span-->
+			<div class="col-4 col-sm-4 col-lg-3">
+			</div>
+			
 			
           </div><!--/row-->
         </div><!--/span-->
@@ -95,13 +108,12 @@
       <hr>
 
       <footer>
-       <p>
+<p>
 			<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>   
 			<a href="https://github.com/Syner/Synerv2"><i class="fa fa-github fa-fw fa-lg"></i>Github</a>
 			<a href="http://www.tladner.com"><i class="fa fa-comments fa-fw fa-lg"></i>Social</a>
 			<a href="mailto:travis@tladner.com"><i class="fa fa-envelope fa-fw fa-lg"></i>Email</a>
-		</p>
-	  </footer>
+		</p>      </footer>
 
     </div><!--/.container-->
 
