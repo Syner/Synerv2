@@ -5,7 +5,7 @@ A tool for collecting anonymous feedback.
 
 Syner is a simple stepping stone project to create a free to use web application for anonymous incident reporting and collaborative problem solving.  To define problems we witness in our world whether they have a specific geographic location or not we need to get people to talk about their perceived "problems".  Syner wants to make it ultra easy for people to vent/complain/brainstorm in relation to the emotion felt when frustrated with a topic/subject.  
 
-In problem solving: acknowledgement is the first step.  Syner attempts to tackle the topic of problem acknowledge by allowing people to anonymously report and communicate with eachother by generating simple posting boards that can be collaboratively edited by anyone who has URL access to that board without registering an account.  The web application will be built with mobile first in mind; with simplicity and lack of total features/capability being a core design philosophy.  
+In problem solving: acknowledgement is the first step.  Syner attempts to tackle the topic of problem acknowledge by allowing people to anonymously report and communicate with eachother by generating simple posting boards that can be collaboratively edited by anyone who has URL access to that board without registering an account.  The web application will be built with mobile first in mind; simplicity and lack of total features/capability being a core design philosophy.  
 
 http://syner.us
 
