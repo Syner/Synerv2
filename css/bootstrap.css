@@ -4356,6 +4356,14 @@ a.badge:focus {
   text-decoration: none;
   cursor: pointer;
 }
+a.post{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
   color: #428bca;
